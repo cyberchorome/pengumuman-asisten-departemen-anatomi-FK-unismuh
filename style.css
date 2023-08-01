@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdypn-O_0rSxfdFvdxjR1fjEwO2R9BSwoel-UYArFxy4PTD09PBv6hyMwiyG9NbE9oeDItau7T1CV8ypsh41K6mkl6XbUwne46OXnB1Cjpv0xf39i2ImlG7AgDJIndTMl2uzyZKDpvFhMHwgnq8soAqM1hwmFhzz0tQNNN1IWYrKnmVoVMFQ0YOEGV/s1644/GKL15_Unismuh%20Makassar%20-%20Koleksilogo.com.png);
+    background-size: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  /* Responsiveness for mobile devices */
+  @media screen and (max-width: 768px) {
+    body {
+      background-size: contain;
+      background-attachment: scroll;
+    }
+  }
+  
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .not-passed {
+    color: red;
+}
+.passed{
+    color : green;
+}
